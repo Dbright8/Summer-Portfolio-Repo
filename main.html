@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1d4c8fe327.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Darius Bright II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/thgp_logo_720.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#sports ">Sports</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Athlete</p>
+                <h1>Hi, I'm <span>Darius</span><br> Bright II From Richmond, CA</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/babypic.jpeg"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hi my name is Darius Bright II from Richmond,Ca. I was born in San Francisco, then moved to Hawaii then back to the bay. I got to Salesian College Preparatory. I run track and play football. I went to the international childrens games in south korea and got gold in the 4x1. Also went to nationals in oregon and got 5th in the 4x1. I have 4 siblings but live with two. </p>
+                   
+                    <div class="tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('Skills')" > Skills </p>
+                      <p class="tab-links" onclick="opentab('Experience')" > Expiernce </p>
+                      <p class="tab-links"onclick="opentab('Education')" >Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                    <li><span>Sports</span><br>Im a running back and Defnesive back. Had multiple deflectons/interceptions as well as touchdowns every game.</li>    
+                    <li><span>Tutoring</span><br>Since I was young I was very smart and that translates  when I teach and tutor other people.</li>    
+                    <li><span>Life Skills</span><br>Doing things a man should know how to do. And just learning all the essential things you need to know in your own career path.</li>    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                    <li><span>Sports</span><br>Honestly in the sports game I started very late. Football when I was 12. Track when I was 13.</li>    
+                    <li><span>Tutoring</span><br>Ever since my brother was born I've always been helping him out. Since im the oldest sibling its in my character to help people. I would say ive been doing this for a long time.</li>    
+                    <li><span>Life Skills</span><br>Since birth my father has constantly been teaching me things essential for life and im forever grateful to him.</li>    
+                    </ul>
+            </div><div class="tab-contents" id="Education">
+                <ul>
+                <li><span>Sports</span><br>When I was a kid my Dad played college football for hawaii I am very edcuated on football.</li>    
+                <li><span>Tutoring</span><br>With the help of my middle school and High school I have been able to obtain great edcuation.</li>    
+                <li><span>Life Skills</span><br>The help of both sides of my family I have been able to obtain great life skills.</li>    
+                </ul>
+        </div>
+        </div>
+    </div>
+<!--------services-------- -->
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Services</h1>
+       <div class="services-list">
+       <div>
+        <h2>Tutoring</h2>
+        <p>Being the great big brother I am I tutor my little brother every night to help him understand things at his grade level.</p>
+        <a href="#">Learn more</a>
+       </div>
+       <div>
+       <h2>Sports </h2>
+        <p>Im especially good at teaching people the sports I play. Such as football and track. I take the information I learn from my coaches and use it to help others.</p>
+        <a href="#">Learn more</a>
+       </div> 
+       <div>
+        <h2>Life Skills</h2>
+        <p>Hidden Genius has been a major help with my life skills I can teach the youth how to be well mannered and respectful to others.</p>
+        <a href="#">Learn more</a>
+       </div>
+       </div>
+    </div>
+    <!-- -----------portfolio--------------- -->
+      <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Sports</h1>
+            <div class="work-list">
+
+              <div class="work">
+                <img src="images/ig.jpeg">
+                <div class="layer">
+                    <h3>Junior Olympics at Hayward Field</h3>
+                    <p>Last year at Junior Olympics when our 4x1 got 5th overall at nationals.</p>
+                </div>
+              </div>
+
+              <div class="work">
+                <img src="images/unnamed-1.jpg">
+                <div class="layer">
+                    <h3>Running the 4x1 at a track meet.</h3>
+                    <p>This meet was fun, pretty sure we won the 4x1 in our age group at this meet.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/unnamed.jpg">
+                <div class="layer">
+                    <h3>Football game vs Saint Patrick Saint Vincent</h3>
+                    <p>Probably my one of my best games freshman year. Did a great job especially on defense.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+<!-- ---------------contanct-------------- -->
+<div id="contact">
+    <div class="contaniner">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane-top"></i>  brightdarius05@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 341-314-5004</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Screenshot 2024-08-01 at 5.41.37 PM.png" download class="btn btn2">Download Atheletic.net Account</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright c Darius. Made with<i class="fas fa-heart"></i> Easy Tutorials</p>
+    </div>
+</div>
+
+
+    <script>
+
+var tablinks = document.getElementsByClassName("tab-links"); 
+var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwsZRUWDJTGB96CJT80CKmhthgiQI5C682dQAmnTukFHfP-8fb4l8ohiIfDW9NVoCi1ew/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message semt sucessfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
